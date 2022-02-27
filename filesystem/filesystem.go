@@ -49,8 +49,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // ErrAlreadySetup indicates that a filesystem is already setup for fscrypt.

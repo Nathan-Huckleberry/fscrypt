@@ -25,7 +25,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/google/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
 )
 
 const testProtectorName = "my favorite protector"

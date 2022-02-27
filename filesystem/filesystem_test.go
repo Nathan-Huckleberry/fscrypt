@@ -30,9 +30,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/sys/unix"
 
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 var (

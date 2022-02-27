@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 	"github.com/pkg/errors"
 )
 

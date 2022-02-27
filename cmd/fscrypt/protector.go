@@ -25,10 +25,10 @@ import (
 	"log"
 	"os/user"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // createProtector makes a new protector on either ctx.Mount or if the requested
@@ -47,7 +47,7 @@ func createProtectorFromContext(ctx *actions.Context) (*actions.Protector, error
 			fmt.Print(`
 IMPORTANT: Before continuing, ensure you have properly set up your system for
            login protectors.  See
-           https://github.com/google/fscrypt#setting-up-for-login-protectors
+           https://github.com/Nathan-Huckleberry/fscrypt#setting-up-for-login-protectors
 
 `)
 		}

@@ -32,12 +32,12 @@ import (
 	"github.com/urfave/cli"
 	"golang.org/x/sys/unix"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/keyring"
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/keyring"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // failureExitCode is the value fscrypt will return on failure.
@@ -235,7 +235,7 @@ func getErrorSuggestions(err error) string {
 	case *filesystem.ErrNoCreatePermission:
 		return `For how to allow users to create fscrypt metadata on a
 			filesystem, refer to
-			https://github.com/google/fscrypt#setting-up-fscrypt-on-a-filesystem`
+			https://github.com/Nathan-Huckleberry/fscrypt#setting-up-fscrypt-on-a-filesystem`
 	case *filesystem.ErrNotSetup:
 		return fmt.Sprintf(`Run "sudo fscrypt setup %s" to use fscrypt
 		        on this filesystem.`, e.Mount.Path)

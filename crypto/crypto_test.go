@@ -30,7 +30,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
 )
 
 // Reader that always returns the same byte

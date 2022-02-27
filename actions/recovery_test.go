@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
 )
 
 func TestRecoveryPassphrase(t *testing.T) {

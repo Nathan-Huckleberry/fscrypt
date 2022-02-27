@@ -34,7 +34,7 @@ import (
 	"os/user"
 	"unsafe"
 
-	"github.com/google/fscrypt/security"
+	"github.com/Nathan-Huckleberry/fscrypt/security"
 )
 
 // Handle wraps the C pam_handle_t type. This is used from within modules.

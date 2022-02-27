@@ -1,4 +1,4 @@
-module github.com/google/fscrypt
+module github.com/Nathan-Huckleberry/fscrypt
 
 go 1.11
 

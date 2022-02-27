@@ -35,10 +35,10 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/security"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/security"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 var (

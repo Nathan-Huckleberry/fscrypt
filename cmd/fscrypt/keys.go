@@ -31,10 +31,10 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/term"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/pam"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/pam"
 )
 
 // The file descriptor for standard input

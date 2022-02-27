@@ -32,8 +32,8 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // We define the types boolFlag, durationFlag, and stringFlag here instead of

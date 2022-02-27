@@ -35,11 +35,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/keyring"
-	"github.com/google/fscrypt/pam"
-	"github.com/google/fscrypt/security"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/keyring"
+	"github.com/Nathan-Huckleberry/fscrypt/pam"
+	"github.com/Nathan-Huckleberry/fscrypt/security"
 )
 
 const (

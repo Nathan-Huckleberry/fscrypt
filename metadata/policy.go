@@ -33,7 +33,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 var (

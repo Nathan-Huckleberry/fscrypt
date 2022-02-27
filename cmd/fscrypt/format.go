@@ -31,7 +31,7 @@ import (
 	"github.com/urfave/cli"
 	"golang.org/x/term"
 
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 var (

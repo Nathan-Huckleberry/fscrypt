@@ -28,7 +28,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/sys/unix"
 
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 const goodV1Descriptor = "0123456789abcdef"

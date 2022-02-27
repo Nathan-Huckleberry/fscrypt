@@ -24,7 +24,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 func TestDeviceNumber(t *testing.T) {

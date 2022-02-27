@@ -31,9 +31,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/security"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/security"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // ErrAccessUserKeyring indicates that a user's keyring cannot be

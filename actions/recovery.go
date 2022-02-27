@@ -23,9 +23,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // modifiedContextWithSource returns a copy of ctx with the protector source

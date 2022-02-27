@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // Reader that always returns the same byte

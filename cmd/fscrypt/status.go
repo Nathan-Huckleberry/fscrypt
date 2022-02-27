@@ -27,9 +27,9 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/keyring"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/keyring"
 )
 
 // Creates a writer which correctly aligns tabs with the specified header.

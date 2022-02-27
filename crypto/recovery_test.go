@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/google/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
 )
 
 const fakeSecretRecoveryCode = "EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJRG-EYTCMJQ="

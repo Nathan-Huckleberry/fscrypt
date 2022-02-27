@@ -32,8 +32,8 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
 )
 
 // Current version of the program (set by Makefile)

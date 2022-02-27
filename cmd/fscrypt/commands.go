@@ -30,13 +30,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/crypto"
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/keyring"
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/security"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/crypto"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/keyring"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/security"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // Setup is a command which can do global or per-filesystem initialization.

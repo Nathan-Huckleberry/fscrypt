@@ -25,9 +25,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/google/fscrypt/actions"
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/actions"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // createGlobalConfig creates (or overwrites) the global config file
@@ -99,7 +99,7 @@ func setupFilesystem(w io.Writer, path string) error {
 		}
 		prompt := fmt.Sprintf(`Allow users other than %s to create
 fscrypt metadata on %s? (See
-https://github.com/google/fscrypt#setting-up-fscrypt-on-a-filesystem)`,
+https://github.com/Nathan-Huckleberry/fscrypt#setting-up-fscrypt-on-a-filesystem)`,
 			username, thisFilesystem)
 		allUsers, err = askQuestion(wrapText(prompt, 0), false)
 		if err != nil {

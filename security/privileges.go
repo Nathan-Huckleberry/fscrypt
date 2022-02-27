@@ -48,7 +48,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // Privileges encapsulate the effective uid/gid and groups of a process.

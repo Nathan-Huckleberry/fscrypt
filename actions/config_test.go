@@ -27,7 +27,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/google/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
 )
 
 // Test that the global config file is created with mode 0644, regardless of the

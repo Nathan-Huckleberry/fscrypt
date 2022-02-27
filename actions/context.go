@@ -34,10 +34,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/google/fscrypt/filesystem"
-	"github.com/google/fscrypt/keyring"
-	"github.com/google/fscrypt/metadata"
-	"github.com/google/fscrypt/util"
+	"github.com/Nathan-Huckleberry/fscrypt/filesystem"
+	"github.com/Nathan-Huckleberry/fscrypt/keyring"
+	"github.com/Nathan-Huckleberry/fscrypt/metadata"
+	"github.com/Nathan-Huckleberry/fscrypt/util"
 )
 
 // ErrLocked indicates that the key hasn't been unwrapped yet.
